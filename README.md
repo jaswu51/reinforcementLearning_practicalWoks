@@ -1,6 +1,6 @@
 # reinforcementLearning_practicalWoks
 
-## note book 
+## lecture notes 
 
 ### dynamic programming vs monte carlo simulations vs temperal difference 
 ![image](https://user-images.githubusercontent.com/91216581/206213936-43cf218f-e40f-4d46-8dff-90b8db5a0285.png)
