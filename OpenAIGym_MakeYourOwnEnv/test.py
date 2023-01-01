@@ -1,5 +1,4 @@
 import gymexamples
-import gymnasium
+import gym
 
-env = gymnasium.make('gymexamples/GridWorld-v0')
-print(env.metadata)
+env = gym.make('gymexamples/GridWorld-v0')
