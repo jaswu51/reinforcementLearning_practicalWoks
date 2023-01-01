@@ -8,3 +8,6 @@
 
 * wrappers/ folder, to wrap your spaces accordingly. and it it not neccesary
 
+* compile your env using !python3 -m pip install -e gymexamples
+
+* test your env using !python3 test.py
