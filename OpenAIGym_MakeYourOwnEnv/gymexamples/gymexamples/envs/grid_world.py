@@ -66,12 +66,13 @@ class GridWorldEnv(gym.Env):
             )
 
         observation = self._get_obs()
+        print(observation)
         info = self._get_info()
 
         if self.render_mode == "human":
             self._render_frame()
 
-        return observation, info
+        return observation
     def step(self, action):
         # Map the action (element of {0,1,2,3}) to the direction we walk in
         direction = self._action_to_direction[action]
